@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(193, 202, 202);
+  flex-direction: column;
+}
+
+.content-title {
+  width: 100%;
+  font-size: 42px;
+  padding-left: 230px;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
