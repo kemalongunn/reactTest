@@ -2,13 +2,16 @@ import './App.css';
 import { HomePage } from './pages/HomePage/Home';
 import {Card}  from './components/Card/Card';
 import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
 
 function App() {
   return (  
     <div className="App">
-      <div className='content-title'>
-        What's cooking this week
-      </div>
+      <Roll left>
+        <div className='content-title'>
+          What's cooking this week
+        </div>        
+      </Roll>
       <Fade left className='card-container'>
         <div className='card-content'>
         <Card 
